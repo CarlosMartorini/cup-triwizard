@@ -6,7 +6,7 @@ class App extends Component {
 
   state = {
     students: [],
-    url: 'http://hp-api.herokuapp.com/api/characters/students',
+    url: 'https://hp-api.herokuapp.com/api/characters/students',
     cards: [],
   };
 
