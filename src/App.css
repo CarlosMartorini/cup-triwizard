@@ -30,11 +30,16 @@
 .button {
   padding: 20px;
   border-radius: 10px;
-  font-weight: bold;
   font-size: 16px;
+  font-weight: bold;
   border: none;
-  background-color: rgb(48, 204, 204);
+  background-color: #30cccc;
   color: #000090;
+  transition: all .5s ease;
+}
+.button:hover {
+  text-shadow: 1px 1px 20px #2f2ff1;
+  box-shadow: 1px 1px 20px 1px #6be2e2;
 }
 
 .main {

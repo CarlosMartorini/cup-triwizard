@@ -7,8 +7,8 @@ class Student extends Component {
         return(
             <div className='card'>
                 <img className='image' src={image} alt={name}/>
-                <label style={{color:'yellow', backgroundColor:'black'}}>{name}</label>
-                <label style={{color:'yellow', backgroundColor:'black'}}>{house}</label>
+                <label className='label'>{name}</label>
+                <label className='label'>{house}</label>
             </div>
         )
     }
