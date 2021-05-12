@@ -44,7 +44,7 @@ class App extends Component {
       return (
         <div className="App">
         <header className="App-header">
-          <h3>Triwizard Cup</h3>
+          <h1>Triwizard Cup</h1>
           <button className ='button' onClick={this.addRandomStudents}>Generate Champions!</button>
         </header>
         <main className='main'>
