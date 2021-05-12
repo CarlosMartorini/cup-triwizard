@@ -1,13 +1,42 @@
 .image {
-    width: 150px;
-    height: 200px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: white;
+    color: white;
+    border-radius: 50% 50% 50% 50% / 5% 5% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+    transition: all .4s ease;
+}
+.image:hover {
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
 }
 
 .card{
-    border: 2px solid red;
-    border-radius: 5px;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background: white;
+    color: white;
+    border-radius: 50% 50% 50% 50% / 5% 5% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+    transition: all .4s ease;
+}
+.card:hover {
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+}
+
+.label {
+    width: 280px;
+    margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    box-shadow: -2px -2px 20px 1px #6b6b6b;
+    justify-content: center;
+    color: yellow;
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
 }
